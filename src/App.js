@@ -192,41 +192,42 @@ export default function App() {
             className="relative w-5 h-5 flex items-center justify-center cursor-pointer text-white"
           >
             <motion.svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="w-full h-full"
-            >
-              {/* Top Line */}
-              <motion.line
-                x1="4"
-                x2="20"
-                y1="6"
-                y2="6"
-                animate={{ y: isMenuOpen ? 6 : 0, opacity: isMenuOpen ? 0 : 1 }}
-                transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-              />
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="2"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+  className="w-full h-full"
+>
+  {/* Top Line: Slides down to middle (y=12) and fades out */}
+  <motion.line
+    x1="4"
+    x2="20"
+    animate={{
+      y1: isMenuOpen ? 12 : 6,
+      y2: isMenuOpen ? 12 : 6,
+      opacity: isMenuOpen ? 0 : 1,
+    }}
+    transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+  />
 
-              {/* Middle Line (Stays static) */}
-              <motion.line x1="4" x2="20" y1="12" y2="12" />
+  {/* Middle Line: Stays static at y=12 */}
+  <motion.line x1="4" x2="20" y1="12" y2="12" />
 
-              {/* Bottom Line */}
-              <motion.line
-                x1="4"
-                x2="20"
-                y1="18"
-                y2="18"
-                animate={{
-                  y: isMenuOpen ? -6 : 0,
-                  opacity: isMenuOpen ? 0 : 1,
-                }}
-                transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-              />
-            </motion.svg>
+  {/* Bottom Line: Slides up to middle (y=12) and fades out */}
+  <motion.line
+    x1="4"
+    x2="20"
+    animate={{
+      y1: isMenuOpen ? 12 : 18,
+      y2: isMenuOpen ? 12 : 18,
+      opacity: isMenuOpen ? 0 : 1,
+    }}
+    transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+  />
+</motion.svg>
           </button>
         </div>
 
