@@ -210,7 +210,7 @@ export default function App() {
       y2: isMenuOpen ? 12 : 6,
       opacity: isMenuOpen ? 0 : 1,
     }}
-    transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+    transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
   />
 
   {/* Middle Line: Stays static at y=12 */}
@@ -225,7 +225,7 @@ export default function App() {
       y2: isMenuOpen ? 12 : 18,
       opacity: isMenuOpen ? 0 : 1,
     }}
-    transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+    transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
   />
 </motion.svg>
           </button>
