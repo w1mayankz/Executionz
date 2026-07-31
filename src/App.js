@@ -307,7 +307,7 @@ export default function App() {
               </div>
 
               <img
-                src="https://cdn.discordapp.com/attachments/1516415038011740330/1531858910896459936/heropositiontool.png?ex=6a6abe48&is=6a696cc8&hm=be5af9d465495c19dc98d287b117a060316de137712fe2eca920443030884825&"
+                src="/hero.png"
                 alt="Illustration showing an open position in $1.8k of profit."
                 className="w-full h-auto object-cover rounded-2xl mt-12"
               />
