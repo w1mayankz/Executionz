@@ -582,7 +582,7 @@ export default function App() {
                       rel="noreferrer"
                       className="flex items-center rounded-2xl justify-center w-full pt-4 pb-4 pl-3 pr-3 md:p-8 bg-[#0E78E8] hover:bg-[#313237] transition-colors duration-300 text-white cursor-pointer group [box-shadow:inset_0px_0px_24px_rgba(255,255,255,0.35)]"
                     >
-                      <span className="text-lg font-medium font-['Inter']">
+                      <span className="text-lg font-medium font-['Inter_Tight']">
                         Join Executionz
                       </span>
                     </a>
@@ -606,8 +606,7 @@ export default function App() {
                 walked the path.
               </p>
 
-              <img
-                src="https://cdn.discordapp.com/attachments/1516415038011740330/1531858914004697208/jenz.jpg?ex=6a6abe49&is=6a696cc9&hm=4f8806d2fe1d528e6a42d72d3106dd23e7846a92d31a80d2bb119d294f0ce71c&"
+              <img src="/jenz.jpg"
                 alt="Jenz"
                 className="w-full h-auto object-cover rounded-2xl mt-12"
               />
@@ -723,7 +722,7 @@ export default function App() {
                 <div className="flex items-center gap-3 mb-6">
                   <div className="w-14 h-14 rounded-xl flex items-center justify-center shrink-0 overflow-hidden">
                     <img
-                      src="https://cdn.discordapp.com/attachments/1516415038011740330/1531858914507882548/0x0_1.png?ex=6a6abe49&is=6a696cc9&hm=863fdf985b0e6feda26a712366eb197d1cfd397ee7e24f224c5438032d8e204b&"
+                      src="/tradeify.png"
                       alt="Tradeify"
                       className="w-full h-full object-cover"
                     />
@@ -796,7 +795,7 @@ export default function App() {
                 <div className="flex items-center gap-3 mb-6">
                   <div className="w-14 h-14 bg-[#EBEEED] rounded-xl flex items-center justify-center shrink-0 overflow-hidden">
                     <img
-                      src="https://cdn.discordapp.com/attachments/1516415038011740330/1531858914872791070/lucidicon-1.png?ex=6a6abe49&is=6a696cc9&hm=0d45fb70747d4d99e27c95ca318ad1f9833c923313ec819c0d6f532e4a92191c&"
+                      src="/lucid.png"
                       alt="Lucid Trading"
                       className="w-full h-full object-contain p-1"
                     />
