@@ -25,7 +25,7 @@ const testimonials = [
       'The vids make soo much sense the recaps and indicators are so helpful like I been here 3 days I already have this hit down. Highkey Jenz is the goat im ngl."',
     name: "Dawsane",
     role: "Member",
-    img: "https://cdn.discordapp.com/attachments/1516415038011740330/1531858911341052034/01344978aaa0ae2e739e97bfa42e8daf.png?ex=6a6abe49&is=6a696cc9&hm=1a8ebd9cda170f084412a27910c4ecc36a1717f7058f0e522f4e15338747dfb3&",
+    img: "/dawsane.png",
   },
   {
     id: 1,
@@ -35,7 +35,7 @@ const testimonials = [
     grayEnd: 'allowing me to become far more consistent now."',
     name: "Cxrs",
     role: "Member",
-    img: "https://cdn.discordapp.com/attachments/1516415038011740330/1531858911714349186/002cf1ed14ed882bf2f536a93bf0abe9.png?ex=6a6abe49&is=6a696cc9&hm=b91124d9dd092b25b95de24b6dffbc3fa2e51b078894d102becf065f7f202544&",
+    img: "/cxrs.png",
   },
   {
     id: 2,
@@ -46,7 +46,7 @@ const testimonials = [
       'He takes the time to answer every single question in detail and makes sure that every concept is clearly understood."',
     name: "Jamie",
     role: "Member",
-    img: "https://cdn.discordapp.com/attachments/1516415038011740330/1531858912142426132/discord-pfp-jamiefficiency.png?ex=6a6abe49&is=6a696cc9&hm=11fee0b787a1610bceba93a78b10275f658815eb10a83af5c4b8349244e32221&",
+    img: "/jamie.png",
   },
   {
     id: 3,
@@ -56,7 +56,7 @@ const testimonials = [
     grayEnd: '"',
     name: "Luis Aldea",
     role: "Member",
-    img: "https://cdn.discordapp.com/attachments/1516415038011740330/1531858912415059998/discord-pfp-luisaldea19.png?ex=6a6abe49&is=6a696cc9&hm=7b3b01ec311c8cdd01cc826a990c1718e932d3fd3da6457d86afa09e98b8d0a7&",
+    img: "/luisaldea19.png",
   },
   {
     id: 4,
@@ -67,7 +67,7 @@ const testimonials = [
       ' because of Jenz and his concepts. He is an absolute mastermind of the markets."',
     name: "Christian",
     role: "Member",
-    img: "https://cdn.discordapp.com/attachments/1516415038011740330/1531858913073561600/695dbf135520dbf01ecac77a894e6f98_1.png?ex=6a6abe49&is=6a696cc9&hm=42aabade716599dbab4de9541482591368d2c64c7f583f63a791df3ca249be99&",
+    img: "/christian.png",
   },
   {
     id: 5,
@@ -77,7 +77,7 @@ const testimonials = [
     grayEnd: ' with a strategy that can change my life if I stay locked in."',
     name: "Steezy",
     role: "Member",
-    img: "https://cdn.discordapp.com/attachments/1516415038011740330/1531858913526415562/a6d1e6b47606820438f91afa35a3c6e2.png?ex=6a6abe49&is=6a696cc9&hm=5fcf9c064b0cba11b5124287d04305641276ba77be7b7303764b01d267ff43cd&",
+    img: "/steezy.png",
   },
 ];
 
