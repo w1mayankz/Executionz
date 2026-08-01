@@ -182,7 +182,7 @@ export default function App() {
                 .getElementById("pricing")
                 ?.scrollIntoView({ behavior: "smooth" });
             }}
-            className="bg-[#313237] md:hover:bg-[#0E78E8] active:bg-[#0E78E8] transition-colors duration-200 px-3.5 py-2 rounded-full text-[12px]"
+            className="bg-[#313237] md:hover:bg-[#0E78E8] active:bg-[#0E78E8] transition-colors duration-200 lg:hidden px-3.5 py-2 rounded-full text-[12px]"
           >
             Join Now
           </a>
