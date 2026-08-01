@@ -495,7 +495,7 @@ export default function App() {
               </div>
             </div>
 
-            <div className="mt-24 w-full max-w-3xl mx-auto flex flex-col gap-4 px-4 md:px-0">
+            <div className="mt-24 w-full max-w-3xl mx-auto flex flex-col gap-4 md:px-0">
                 <img 
                   src="/wxotwin.jpg"
                   alt="testimonial image"
