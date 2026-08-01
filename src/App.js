@@ -189,7 +189,7 @@ export default function App() {
 
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="relative w-5 h-5 flex items-center justify-center lg:hidden cursor-pointer text-white"
+            className="relative w-5 h-5 flex items-center justify-center lg:hidden md:hidden cursor-pointer text-white"
           >
             <motion.svg
   xmlns="http://www.w3.org/2000/svg"
