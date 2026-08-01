@@ -278,7 +278,7 @@ export default function App() {
         <div key="home" className="slide-down-active">
           <section id="home" className="bg-[#101115] scroll-mt-32 w-full pb-24">
             <main className="max-w-5xl mx-auto px-4 pt-24 font-['Inter_Tight']">
-              <h1 className="mt-26 text-white text-4xl font-medium tracking-tight font-['Inter_Tight']">
+              <h1 className="text-white text-4xl font-medium tracking-tight font-['Inter_Tight']">
                 {"The markets aren't "}
                 <span className="md:block">random.</span>
               </h1>
@@ -316,7 +316,7 @@ export default function App() {
                 Join our free community.
               </h1>
               <p className="mt-6 text-white/60 leading-normal text-base font-normal font-['Inter_Tight']">
-                Surround yourself with a community of 1,000+ traders.
+                Surround yourself with a community of 1,000+ like minded traders.
               </p>
 
               <button className="px-3.5 py-2 mt-6 rounded-full bg-[#0E78E8] text-white text-[12px] font-normal font-['Inter']">
