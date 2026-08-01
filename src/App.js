@@ -504,37 +504,37 @@ export default function App() {
                 <img
                   src="/steezypayout.jpg"
                   alt="testimonial image"
-                  className="w-full h-auto rounded-2xl object-cover"
+                  className="w-full h-auto rounded-xl object-cover"
                 />
                 <img
                   src="/icywin.jpg"
                   alt="testimonial image"
-                  className="w-full h-auto rounded-2xl object-cover"
+                  className="w-full h-auto rounded-xl object-cover"
                 />
                 <img
                   src="/steezypnl.jpg"
                   alt="testimonial image"
-                  className="w-full h-auto rounded-2xl object-cover"
+                  className="w-full h-auto rounded-xl object-cover"
                 />
                 <img
                   src="/icywin2.jpg"
                   alt="testimonial image"
-                  className="w-full h-auto rounded-2xl object-cover"
+                  className="w-full h-auto rounded-xl object-cover"
                 />
                 <img
                   src="/9to5.jpg"
                   alt="testimonial image"
-                  className="w-full h-auto rounded-2xl object-cover"
+                  className="w-full h-auto rounded-xl object-cover"
                 />
                 <img
                   src="/steezyalerted.jpg"
                   alt="testimonial image"
-                  className="w-full h-auto rounded-2xl object-cover"
+                  className="w-full h-auto rounded-xl object-cover"
                 />
                 <img
                   src="/benrhaywin2.jpg"
                   alt="testimonial image"
-                  className="w-full h-auto rounded-2xl object-cover"
+                  className="w-full h-auto rounded-xl object-cover"
                 />
             </div>
           </section>
