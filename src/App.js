@@ -506,6 +506,26 @@ export default function App() {
                   alt="testimonial image"
                   className="w-full h-auto rounded-2xl object-cover"
                 />
+                <img
+                  src="/icywin.jpg"
+                  alt="testimonial image"
+                  className="w-full h-auto rounded-2xl object-cover"
+                />
+                <img
+                  src="/steezypnl.jpg"
+                  alt="testimonial image"
+                  className="w-full h-auto rounded-2xl object-cover"
+                />
+                <img
+                  src="/icywin2.jpg"
+                  alt="testimonial image"
+                  className="w-full h-auto rounded-2xl object-cover"
+                />
+                <img
+                  src="/benrhaywin.jpg"
+                  alt="testimonial image"
+                  className="w-full h-auto rounded-2xl object-cover"
+                />
             </div>
           </section>
 
