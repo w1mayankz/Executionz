@@ -705,7 +705,7 @@ export default function App() {
                 Find answers to frequently asked questions.
               </p>
 
-              <div className="mt-12 w-full max-w-3xl mx-auto border rounded-2xl border-black/10">
+              <div className="mt-12 w-full max-w-3xl mx-auto border rounded-2xl overflow-hidden border-black/10">
                 <FAQItem
                   question="What level of trading experience is required to join?"
                   answer="Traders of all experience levels are welcome to join. The material is structured to be clear for newer traders while remaining precise enough for experienced participants. You also have direct access to mentors and instructors to guide you through questions as you develop."
