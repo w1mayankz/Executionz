@@ -497,7 +497,7 @@ export default function App() {
 
             <div className="mt-24 w-full max-w-3xl mx-auto flex flex-col gap-2 md:px-0">
                 <img 
-                  src="/wxotwin.jpg"
+                  src="/dg.jpg"
                   alt="testimonial image"
                   className="w-full h-auto rounded-xl object-cover"
                 />
@@ -522,12 +522,17 @@ export default function App() {
                   className="w-full h-auto rounded-xl object-cover"
                 />
                 <img
-                  src="/9to5.jpg"
+                  src="/jamie.jpg"
                   alt="testimonial image"
                   className="w-full h-auto rounded-xl object-cover"
                 />
                 <img
                   src="/steezyalerted.jpg"
+                  alt="testimonial image"
+                  className="w-full h-auto rounded-xl object-cover"
+                />
+                <img
+                  src="/jamie2.jpg"
                   alt="testimonial image"
                   className="w-full h-auto rounded-xl object-cover"
                 />
