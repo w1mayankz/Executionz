@@ -278,7 +278,7 @@ export default function App() {
         <div key="home" className="slide-down-active">
           <section id="home" className="bg-[#101115] scroll-mt-32 w-full pb-24">
             <main className="max-w-2xl mx-auto px-4 pt-24 font-['Inter_Tight']">
-              <h1 className="text-white text-4xl lg:text-5xl font-medium tracking-tight lg:leading-none font-['Inter_Tight']">
+              <h1 className="text-white text-4xl lg:text-6xl font-medium tracking-tight lg:leading-none font-['Inter_Tight']">
                 {"The markets aren't "}
                 <span className="md:block">random.</span>
               </h1>
@@ -312,7 +312,7 @@ export default function App() {
                 className="w-full h-auto object-cover rounded-2xl mt-12"
               />
 
-              <h1 className="mt-24 text-white text-4xl lg:text-5xl font-medium tracking-tight lg:tracking-none font-['Inter_Tight']">
+              <h1 className="mt-24 text-white text-4xl lg:text-6xl font-medium tracking-tight lg:tracking-none font-['Inter_Tight']">
                 Join our free discord.
               </h1>
               <p className="mt-6 text-white/60 leading-normal text-base lg:text-lg font-normal font-['Inter_Tight']">
@@ -327,69 +327,69 @@ export default function App() {
 
           <section
             id="features"
-            className="w-full max-w-5xl mx-auto px-4 pt-24 pb-24 font-['Inter_Tight']"
+            className="w-full max-w-2xl mx-auto px-4 pt-24 pb-24 font-['Inter_Tight']"
           >
-            <h1 className="text-black text-4xl font-medium tracking-tight font-['Inter_Tight']">
+            <h1 className="text-black text-4xl lg:text-6xl font-medium tracking-tight font-['Inter_Tight']">
               Where serious growth happens.
             </h1>
 
-            <p className="mt-6 text-black/60 leading-normal text-base font-normal font-['Inter_Tight']">
+            <p className="mt-6 text-black/60 leading-normal text-base lg:text-lg font-normal font-['Inter_Tight']">
               We don't copy signals, We train you to see as clear as we do.
             </p>
 
             <div className="mt-12 flex items-center gap-2">
               <div className="w-3 h-3 rounded-[4px] bg-[#0E78E8]"></div>
-              <span className="text-[#0E78E8] text-base font-normal font-['Inter_Tight']">
+              <span className="text-[#0E78E8] text-base lg:text-lg font-normal font-['Inter_Tight']">
                 Trading Model
               </span>
             </div>
 
-            <p className="mt-3 text-black/60 leading-normal text-base font-normal font-['Inter_Tight']">
+            <p className="mt-3 text-black/60 leading-normal text-base lg:text-lg font-normal font-['Inter_Tight']">
               Learn the complete framework I've developed and refined through
               real market conditions.
             </p>
 
             <div className="mt-12 flex items-center gap-2">
               <div className="w-3 h-3 rounded-[4px] bg-[#0E78E8]"></div>
-              <span className="text-[#0E78E8] text-base font-normal font-['Inter_Tight']">
+              <span className="text-[#0E78E8] text-base lg:text-lg font-normal font-['Inter_Tight']">
                 Community
               </span>
             </div>
 
-            <p className="mt-3 text-black/60 leading-normal text-base font-normal font-['Inter_Tight']">
+            <p className="mt-3 text-black/60 leading-normal text-base lg:text-lg font-normal font-['Inter_Tight']">
               Connect with other traders using the same strategy, share
               insights, and stay sharp.
             </p>
 
             <div className="mt-12 flex items-center gap-2">
               <div className="w-3 h-3 rounded-[4px] bg-[#0E78E8]"></div>
-              <span className="text-[#0E78E8] text-base font-normal font-['Inter_Tight']">
+              <span className="text-[#0E78E8] text-base lg:text-lg font-normal font-['Inter_Tight']">
                 Education
               </span>
             </div>
 
-            <p className="mt-3 text-black/60 leading-normal text-base font-normal font-['Inter_Tight']">
+            <p className="mt-3 text-black/60 leading-normal text-base lg:text-lg font-normal font-['Inter_Tight']">
               See exactly what works via trade recaps, strategy documentation
               and analysis posts.
             </p>
 
             <div className="mt-12 flex items-center gap-2">
               <div className="w-3 h-3 rounded-[4px] bg-[#0E78E8]"></div>
-              <span className="text-[#0E78E8] text-base font-normal font-['Inter_Tight']">
+              <span className="text-[#0E78E8] text-base lg:text-lg font-normal font-['Inter_Tight']">
                 Indicators
               </span>
             </div>
 
-            <p className="mt-3 text-black/60 leading-normal text-base font-normal font-['Inter_Tight']">
+            <p className="mt-3 text-black/60 leading-normal text-base lg:text-lg font-normal font-['Inter_Tight']">
               Get access to the technical tools I actually use to identify
               high-probability setups.
             </p>
 
-            <h1 className="mt-24 text-black text-4xl font-medium font-['Inter_Tight'] tracking-tight">
+            <h1 className="mt-24 text-black text-4xl lg:text-6xl font-medium font-['Inter_Tight'] tracking-tight">
               Extensive recorded content library.
             </h1>
 
-            <p className="mt-6 text-black/60 leading-normal text-base font-normal font-['Inter_Tight']">
+            <p className="mt-6 text-black/60 leading-normal text-base lg:text-lg font-normal font-['Inter_Tight']">
               Clear, detailed guides on how to implement and execute the
               strategy yourself.
             </p>
