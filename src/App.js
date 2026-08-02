@@ -278,12 +278,12 @@ export default function App() {
         <div key="home" className="slide-down-active">
           <section id="home" className="bg-[#101115] scroll-mt-32 w-full pb-24">
             <main className="max-w-2xl mx-auto px-4 pt-24 font-['Inter_Tight']">
-              <h1 className="text-white text-4xl font-medium tracking-tight font-['Inter_Tight']">
+              <h1 className="text-white text-4xl lg:text-6xl font-medium tracking-tight font-['Inter_Tight']">
                 {"The markets aren't "}
                 <span className="md:block">random.</span>
               </h1>
 
-              <p className="mt-6 text-white/60 leading-normal text-base font-normal font-['Inter_Tight']">
+              <p className="mt-6 text-white/60 leading-normal text-base lg:text-lg font-normal font-['Inter_Tight']">
                 Trade with greater confidence, consistency and conviction.
               </p>
 
@@ -296,12 +296,12 @@ export default function App() {
                       .getElementById("pricing")
                       ?.scrollIntoView({ behavior: "smooth" });
                   }}
-                  className="px-3.5 py-2 rounded-full bg-[#0E78E8] text-white text-[12px] font-normal font-['Inter']"
+                  className="px-3.5 py-2 rounded-full bg-[#0E78E8] text-white text-[12px] lg:px-5.25 lg:py-3 lg:text-sm font-normal font-['Inter']"
                 >
                   Get Started
                 </a>
 
-                <button className="px-3.5 py-2 rounded-full bg-[#313237] text-white text-[12px] font-normal font-['Inter']">
+                <button className="px-3.5 py-2 rounded-full bg-[#313237] text-white text-[12px] lg:px-5.25 lg:py-3 lg:text-sm font-normal font-['Inter']">
                   Testimonials
                 </button>
               </div>
@@ -312,14 +312,14 @@ export default function App() {
                 className="w-full h-auto object-cover rounded-2xl mt-12"
               />
 
-              <h1 className="mt-24 text-white text-4xl font-medium tracking-tight font-['Inter_Tight']">
+              <h1 className="mt-24 text-white text-4xl lg:text-6xl font-medium tracking-tight font-['Inter_Tight']">
                 Join our free discord community.
               </h1>
-              <p className="mt-6 text-white/60 leading-normal text-base font-normal font-['Inter_Tight']">
+              <p className="mt-6 text-white/60 leading-normal text-base lg:text-lg font-normal font-['Inter_Tight']">
                 Surround yourself with a community of 1,000+ like minded traders.
               </p>
 
-              <button className="px-3.5 py-2 mt-6 rounded-full bg-[#0E78E8] text-white text-[12px] font-normal font-['Inter']">
+              <button className="px-3.5 py-2 mt-6 lg:px-5.25 lg:py-3 lg:text-sm rounded-full bg-[#0E78E8] text-white text-[12px] font-normal font-['Inter']">
                 Join Discord
               </button>
             </main>
