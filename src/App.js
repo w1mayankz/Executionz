@@ -313,7 +313,7 @@ export default function App() {
               />
 
               <h1 className="mt-24 text-white text-4xl lg:text-6xl font-medium tracking-tight font-['Inter_Tight']">
-                Join our free discord community.
+                Join our free discord.
               </h1>
               <p className="mt-6 text-white/60 leading-normal text-base lg:text-lg font-normal font-['Inter_Tight']">
                 Surround yourself with a community of 1,000+ like minded traders.
