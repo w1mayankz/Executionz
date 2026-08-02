@@ -277,7 +277,7 @@ export default function App() {
       {activePage === "home" ? (
         <div key="home" className="slide-down-active">
           <section id="home" className="bg-[#101115] scroll-mt-32 w-full pb-24">
-            <main className="max-w-3xl mx-auto px-4 pt-24 font-['Inter_Tight']">
+            <main className="max-w-2xl mx-auto px-4 pt-24 font-['Inter_Tight']">
               <h1 className="text-white text-4xl lg:text-5xl font-medium tracking-tight lg:leading-none font-['Inter_Tight']">
                 {"The markets aren't "}
                 <span className="md:block">random.</span>
