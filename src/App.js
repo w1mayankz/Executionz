@@ -397,7 +397,7 @@ export default function App() {
             <div className="mt-12 w-full grid grid-cols-2 gap-2 md:gap-6">
               <div className="p-4 border border-black/10 rounded-2xl bg-white">
                 <BookmarkIcon className="w-4 h-4 text-[#0E78E8] mb-5" />
-                <p className="text-black/70 text-[12px] leading-normal font-normal text-left font-['Inter_Tight']">
+                <p className="text-black/70 text-[12px] lg:text-lg leading-normal font-normal text-left font-['Inter_Tight']">
                   Learn foundational basics to understand the markets and start
                   trading with clarity.
                 </p>
@@ -405,7 +405,7 @@ export default function App() {
 
               <div className="p-4 border border-black/10 rounded-2xl bg-white">
                 <FolderOpenIcon className="w-4 h-4 text-[#0E78E8] mb-5" />
-                <p className="text-black/70 text-[12px] leading-normal font-normal text-left font-['Inter_Tight']">
+                <p className="text-black/70 text-[12px] lg:text-lg leading-normal font-normal text-left font-['Inter_Tight']">
                   Watch visual tutorials to map out your charts and spot perfect
                   setups all by yourself.
                 </p>
@@ -413,7 +413,7 @@ export default function App() {
 
               <div className="p-4 border border-black/10 rounded-2xl bg-white">
                 <ChartBarIcon className="w-4 h-4 text-[#0E78E8] mb-5" />
-                <p className="text-black/70 text-[12px] leading-normal font-normal font-['Inter_Tight'] text-left">
+                <p className="text-black/70 text-[12px] lg:text-lg leading-normal font-normal font-['Inter_Tight'] text-left">
                   Learn straightforward math to cap your losses small and let
                   your winning trades grow.
                 </p>
@@ -421,7 +421,7 @@ export default function App() {
 
               <div className="p-4 border border-black/10 rounded-2xl bg-white">
                 <LightBulbIcon className="w-4 h-4 text-[#0E78E8] mb-5" />
-                <p className="text-black/70 text-[12px] leading-normal font-normal font-['Inter_Tight'] text-left">
+                <p className="text-black/70 text-[12px] lg:text-lg leading-normal font-normal font-['Inter_Tight'] text-left">
                   Learn to have a rock solid mindset to ignore the noise and
                   execute with confidence.
                 </p>
