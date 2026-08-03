@@ -338,7 +338,7 @@ export default function App() {
             </p>
 
             <div className="mt-12 flex items-center gap-2">
-              <div className="w-3 h-3 lg:w-4 lg:h-4 rounded-[4px] bg-[#0E78E8]"></div>
+              <div className="w-3 h-3 rounded-[4px] bg-[#0E78E8]"></div>
               <span className="text-[#0E78E8] text-base lg:text-lg font-normal font-['Inter_Tight']">
                 Trading Model
               </span>
@@ -350,7 +350,7 @@ export default function App() {
             </p>
 
             <div className="mt-12 flex items-center gap-2">
-              <div className="w-3 h-3 lg:w-4 lg:h-4 rounded-[4px] bg-[#0E78E8]"></div>
+              <div className="w-3 h-3 rounded-[4px] bg-[#0E78E8]"></div>
               <span className="text-[#0E78E8] text-base lg:text-lg font-normal font-['Inter_Tight']">
                 Community
               </span>
@@ -362,7 +362,7 @@ export default function App() {
             </p>
 
             <div className="mt-12 flex items-center gap-2">
-              <div className="w-3 h-3 lg:w-4 lg:h-4 rounded-[4px] bg-[#0E78E8]"></div>
+              <div className="w-3 h-3 rounded-[4px] bg-[#0E78E8]"></div>
               <span className="text-[#0E78E8] text-base lg:text-lg font-normal font-['Inter_Tight']">
                 Education
               </span>
@@ -374,7 +374,7 @@ export default function App() {
             </p>
 
             <div className="mt-12 flex items-center gap-2">
-              <div className="w-3 h-3 lg:w-4 lg:h-4 rounded-[4px] bg-[#0E78E8]"></div>
+              <div className="w-3 h-3 rounded-[4px] bg-[#0E78E8]"></div>
               <span className="text-[#0E78E8] text-base lg:text-lg font-normal font-['Inter_Tight']">
                 Indicators
               </span>
@@ -396,7 +396,7 @@ export default function App() {
 
             <div className="mt-12 w-full grid grid-cols-2 gap-2 md:gap-6">
               <div className="p-4 border border-black/10 rounded-2xl bg-white">
-                <BookmarkIcon className="w-4 h-4 lg:w-5 lg:h-5 text-[#0E78E8] mb-5" />
+                <BookmarkIcon className="w-4 h-4 text-[#0E78E8] mb-5" />
                 <p className="text-black/70 text-[12px] lg:text-lg leading-normal font-normal text-left font-['Inter_Tight']">
                   Learn foundational basics to understand the markets and start
                   trading with clarity.
@@ -404,7 +404,7 @@ export default function App() {
               </div>
 
               <div className="p-4 border border-black/10 rounded-2xl bg-white">
-                <FolderOpenIcon className="w-4 h-4 lg:w-5 lg:h-5 text-[#0E78E8] mb-5" />
+                <FolderOpenIcon className="w-4 h-4 text-[#0E78E8] mb-5" />
                 <p className="text-black/70 text-[12px] lg:text-lg leading-normal font-normal text-left font-['Inter_Tight']">
                   Watch visual tutorials to map out your charts and spot perfect
                   setups all by yourself.
@@ -412,7 +412,7 @@ export default function App() {
               </div>
 
               <div className="p-4 border border-black/10 rounded-2xl bg-white">
-                <ChartBarIcon className="w-4 h-4 lg:w-5 lg:h-5 text-[#0E78E8] mb-5" />
+                <ChartBarIcon className="w-4 h-4 text-[#0E78E8] mb-5" />
                 <p className="text-black/70 text-[12px] lg:text-lg leading-normal font-normal font-['Inter_Tight'] text-left">
                   Learn straightforward math to cap your losses small and let
                   your winning trades grow.
@@ -420,7 +420,7 @@ export default function App() {
               </div>
 
               <div className="p-4 border border-black/10 rounded-2xl bg-white">
-                <LightBulbIcon className="w-4 h-4 lg:w-5 lg:h-5 text-[#0E78E8] mb-5" />
+                <LightBulbIcon className="w-4 h-4 text-[#0E78E8] mb-5" />
                 <p className="text-black/70 text-[12px] lg:text-lg leading-normal font-normal font-['Inter_Tight'] text-left">
                   Learn to have a rock solid mindset to ignore the noise and
                   execute with confidence.
@@ -464,7 +464,7 @@ export default function App() {
                     }`}
                   >
                     {/* Quote */}
-                    <p className="pr-10 text-xl md:text-3xl lg:text-4xl text-black/40 font-medium leading-[1.3] tracking-tight mb-8">
+                    <p className="pr-10 text-xl md:text-2xl lg:text-3xl text-black/40 font-medium leading-[1.3] lg:leading-normal tracking-tight mb-8">
                       {testimonial.grayStart}
                       <span className="text-black">
                         {testimonial.blackHighlight}
