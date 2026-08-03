@@ -164,7 +164,8 @@ export default function App() {
       className="min-h-screen selection:bg-[#0E78E8] selection:text-white bg-white scroll-smooth"
       style={{ scrollBehavior: "smooth" }}
     >
-      <nav className="bg-[#191A1C] flex justify-between py-2 px-5 items-center sticky top-0 z-50 border-b border-[#313237] font-['Inter']">
+      <nav className="bg-[#191A1C] w-full sticky top-0 z-50 border-b border-[#313237] font-['Inter']">
+        <div className="max-w-5xl mx-auto w-full flex justify-between items-center py-2 px-5 relative">
         <p
           onClick={() => navigate("home", "/")}
           className="text-white text-xl font-['Inter_Tight'] font-semibold tracking-[-1px]"
@@ -272,7 +273,8 @@ export default function App() {
             </motion.div>
           )}
         </AnimatePresence>
-      </nav>
+      </div>
+     </nav>
 
       {activePage === "home" ? (
         <div key="home" className="slide-down-active">
