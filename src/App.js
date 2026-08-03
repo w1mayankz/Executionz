@@ -464,7 +464,7 @@ export default function App() {
                     }`}
                   >
                     {/* Quote */}
-                    <p className="pr-10 text-xl md:text-2xl lg:text-3xl text-black/40 font-medium leading-[1.3] lg:leading-normal tracking-tight mb-8">
+                    <p className="pr-10 text-xl md:text-2xl lg:text-3xl text-black/40 font-medium leading-[1.3] lg:leading-[1.4] tracking-tight mb-8">
                       {testimonial.grayStart}
                       <span className="text-black">
                         {testimonial.blackHighlight}
