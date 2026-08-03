@@ -165,7 +165,7 @@ export default function App() {
       style={{ scrollBehavior: "smooth" }}
     >
       <nav className="bg-[#191A1C] w-full sticky top-0 z-50 border-b border-[#313237] font-['Inter']">
-        <div className="max-w-2xl md:max-w-3xl mx-auto w-full flex justify-between items-center py-2 px-5 lg:px-4 relative">
+        <div className="max-w-2xl md:max-w-3xl lg:max-w-2xl mx-auto w-full flex justify-between items-center py-2 px-5 lg:px-4 relative">
         <p
           onClick={() => navigate("home", "/")}
           className="text-white text-xl font-['Inter_Tight'] font-semibold tracking-[-1px]"
@@ -279,7 +279,7 @@ export default function App() {
       {activePage === "home" ? (
         <div key="home" className="slide-down-active">
           <section id="home" className="bg-[#101115] scroll-mt-32 w-full pb-24">
-            <main className="max-w-2xl md:max-w-3xl mx-auto px-4 pt-24 font-['Inter_Tight']">
+            <main className="max-w-2xl md:max-w-3xl lg:max-w-2xl mx-auto px-4 pt-24 font-['Inter_Tight']">
               <h1 className="text-white text-4xl lg:text-6xl font-medium tracking-tight lg:leading-none font-['Inter_Tight']">
                 {"The markets aren't "}
                 <span className="md:block">random.</span>
@@ -329,7 +329,7 @@ export default function App() {
 
           <section
             id="features"
-            className="w-full max-w-2xl md:max-w-3xl mx-auto px-4 pt-24 pb-24 font-['Inter_Tight']"
+            className="w-full max-w-2xl md:max-w-3xl lg:max-w-2xl mx-auto px-4 pt-24 pb-24 font-['Inter_Tight']"
           >
             <h1 className="text-black text-4xl lg:text-6xl font-medium tracking-tight font-['Inter_Tight']">
               Where serious growth happens.
