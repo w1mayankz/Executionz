@@ -101,7 +101,7 @@ const FAQItem = ({ question, answer }) => {
             isOpen ? "-rotate-45" : "rotate-0"
           }`}
         >
-          <AddIcon fontSize="inherit" className="text-black/80 text-[20px]" />
+          <AddIcon fontSize="inherit" className="text-black/80 text-[24px]" />
         </div>
       </button>
 
@@ -582,21 +582,21 @@ export default function App() {
                       <div className="flex items-start gap-2">
                         <CheckCircleIcon className="w-5 h-5 text-[#0E78E8] shrink-0 mt-0.5" />
                         <span className="text-white/80 text-[14px] font-normal font-['Inter_Tight']">
-                          10+ hours of recorded study content on my model
+                          10+ hours of recorded study content on my trading model
                         </span>
                       </div>
 
                       <div className="flex items-start gap-2">
                         <CheckCircleIcon className="w-5 h-5 text-[#0E78E8] shrink-0 mt-0.5" />
                         <span className="text-white/80 text-[14px] font-normal font-['Inter_Tight']">
-                          Access to the custom indicators I use every single day
+                          Access to all the custom indicators I use every single day
                         </span>
                       </div>
 
                       <div className="flex items-start gap-2">
                         <CheckCircleIcon className="w-5 h-5 text-[#0E78E8] shrink-0 mt-0.5" />
                         <span className="text-white/80 text-[14px] font-normal font-['Inter_Tight']">
-                          Written study guide covering my complete trading style
+                          Detailed written study guide covering my complete trading style
                         </span>
                       </div>
 
@@ -657,11 +657,11 @@ export default function App() {
                 </h1>
 
                 <div className="flex flex-col items-center gap-1 mt-2">
-                  <span className="px-3.5 py-2 rounded-full border border-black/10 text-black/60 text-[12px] font-normal font-['Inter_Tight']">
+                  <span className="px-3 py-1.5 rounded-full border border-black/10 text-black/60 text-[12px] font-normal font-['Inter_Tight']">
                     Trader for 3+ years
                   </span>
 
-                  <span className="px-3.5 py-2 rounded-full border border-black/10 text-black/60 text-[12px] font-normal font-['Inter_Tight']">
+                  <span className="px-3 py-1.5 rounded-full border border-black/10 text-black/60 text-[12px] font-normal font-['Inter_Tight']">
                     Trading Educator for 1+ years
                   </span>
                 </div>
