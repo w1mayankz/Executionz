@@ -308,33 +308,33 @@ export default function App() {
                 </button>
               </div>
 
-                {/* 3D HERO IMAGE LAYOUT COMPONENT */}
-              <div className="relative mt-12 w-full aspect-video perspective-[1000px]">
+               {/* 3-IMAGE HERO LAYOUT COMPONENT */}
+              <div className="relative mt-12 w-full aspect-video perspective-[1000px] overflow-visible">
                 
-                {/* 1. Left Image: Aidan (tilted and tucked back) */}
-                <div className="absolute top-[10%] left-0 w-[40%] h-auto z-0 [transform:rotateY(15deg)_rotateZ(5deg)_translateX(0px)_translateY(0px)_translateZ(-50px)]">
+                {/* 1. Left Image: Aidan (tucked back and tilted) */}
+                <div className="absolute top-[20%] left-0 w-[40%] h-auto z-10 [transform:rotateY(-15deg)_translateZ(-60px)]">
                     <img 
                       src="/aidanhero.jpg" 
-                      alt="Discord community screenshot - Aidan" 
-                      className="w-full h-full object-contain rounded-2xl border-4 border-[#191A1C] shadow-[24px_16px_56px_rgba(0,0,0,0.5)] bg-[#191A1C]"
+                      alt="Discord community Aidan" 
+                      className="w-full h-full object-contain rounded-2xl shadow-[0px_16px_50px_rgba(0,0,0,0.4)]"
                     />
                 </div>
 
-                {/* 2. Middle Image: Jamie (Prominent foreground, very slight curve) */}
-                <div className="absolute top-0 left-1/2 w-[60%] h-auto -translate-x-1/2 z-20 [transform:rotateY(-2deg)_rotateZ(1deg)_translateZ(20px)]">
+                {/* 2. Middle Image: Jamie (Foreground, vertical) */}
+                <div className="absolute top-0 left-1/2 w-[60%] h-auto -translate-x-1/2 z-20">
                     <img 
                       src="/jamiehero.jpg" 
-                      alt="Discord community screenshot - Jamie" 
-                      className="w-full h-full object-contain rounded-2xl border-4 border-[#191A1C] shadow-[0px_16px_72px_rgba(0,0,0,0.6)] bg-[#191A1C]"
+                      alt="Discord community Jamie" 
+                      className="w-full h-full object-contain rounded-2xl shadow-[0px_20px_72px_rgba(0,0,0,0.6)]"
                     />
                 </div>
 
-                {/* 3. Right Image: Profit (tilted and tucked back) */}
-                <div className="absolute top-[10%] right-0 w-[40%] h-auto z-0 [transform:rotateY(-15deg)_rotateZ(-5deg)_translateX(0px)_translateY(0px)_translateZ(-50px)]">
+                {/* 3. Right Image: Profit (tucked back and tilted) */}
+                <div className="absolute top-[20%] right-0 w-[40%] h-auto z-10 [transform:rotateY(15deg)_translateZ(-60px)]">
                     <img 
                       src="/heroprofit.jpg" 
-                      alt="Discord community screenshot - Profit" 
-                      className="w-full h-full object-contain rounded-2xl border-4 border-[#191A1C] shadow-[-24px_16px_56px_rgba(0,0,0,0.5)] bg-[#191A1C]"
+                      alt="Discord community Profit" 
+                      className="w-full h-full object-contain rounded-2xl shadow-[0px_16px_50px_rgba(0,0,0,0.4)]"
                     />
                 </div>
               </div>
