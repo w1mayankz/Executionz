@@ -312,11 +312,11 @@ export default function App() {
               <div className="relative mt-12 w-full aspect-video perspective-[1000px] overflow-visible">
                 
                 {/* 1. Left Image: Aidan (tucked back and tilted) */}
-                <div className="absolute top-[20%] left-0 w-[40%] h-auto z-10 [transform:rotateY(-15deg)_translateZ(-60px)]">
+                <div className="absolute top-[20%] -left-4 w-[40%] h-auto z-10 [transform:rotateY(-15deg)_translateZ(-60px)_rotateZ(-3deg)]">
                     <img 
                       src="/aidanhero.jpg" 
                       alt="Discord community Aidan" 
-                      className="w-full h-full object-contain rounded-2xl shadow-[0px_16px_50px_rgba(0,0,0,0.4)]"
+                      className="w-full h-full object-contain rounded-xl shadow-[0px_16px_50px_rgba(0,0,0,0.4)]"
                     />
                 </div>
 
@@ -325,16 +325,16 @@ export default function App() {
                     <img 
                       src="/jamiehero.jpg" 
                       alt="Discord community Jamie" 
-                      className="w-full h-full object-contain rounded-2xl shadow-[0px_20px_72px_rgba(0,0,0,0.6)]"
+                      className="w-full h-full object-contain rounded-xl shadow-[0px_20px_72px_rgba(0,0,0,0.6)]"
                     />
                 </div>
 
                 {/* 3. Right Image: Profit (tucked back and tilted) */}
-                <div className="absolute top-[20%] right-0 w-[40%] h-auto z-10 [transform:rotateY(15deg)_translateZ(-60px)]">
+                <div className="absolute top-[20%] -right-4 w-[40%] h-auto z-10 [transform:rotateY(15deg)_translateZ(-60px)_rotateZ(3deg)]">
                     <img 
                       src="/heroprofit.jpg" 
                       alt="Discord community Profit" 
-                      className="w-full h-full object-contain rounded-2xl shadow-[0px_16px_50px_rgba(0,0,0,0.4)]"
+                      className="w-full h-full object-contain rounded-xl shadow-[0px_16px_50px_rgba(0,0,0,0.4)]"
                     />
                 </div>
               </div>
