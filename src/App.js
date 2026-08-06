@@ -308,11 +308,36 @@ export default function App() {
                 </button>
               </div>
 
-              <img
-                src="/hero.png"
-                alt="Illustration showing an open position in $1.8k of profit."
-                className="w-full h-auto object-cover rounded-2xl mt-12"
-              />
+                {/* 3D HERO IMAGE LAYOUT COMPONENT */}
+              <div className="relative mt-12 w-full aspect-video perspective-[1000px]">
+                
+                {/* 1. Left Image: Aidan (tilted and tucked back) */}
+                <div className="absolute top-[10%] left-0 w-[40%] h-auto z-0 [transform:rotateY(15deg)_rotateZ(5deg)_translateX(0px)_translateY(0px)_translateZ(-50px)]">
+                    <img 
+                      src="/aidanhero.jpg" 
+                      alt="Discord community screenshot - Aidan" 
+                      className="w-full h-full object-contain rounded-2xl border-4 border-[#191A1C] shadow-[24px_16px_56px_rgba(0,0,0,0.5)] bg-[#191A1C]"
+                    />
+                </div>
+
+                {/* 2. Middle Image: Jamie (Prominent foreground, very slight curve) */}
+                <div className="absolute top-0 left-1/2 w-[60%] h-auto -translate-x-1/2 z-20 [transform:rotateY(-2deg)_rotateZ(1deg)_translateZ(20px)]">
+                    <img 
+                      src="/jamiehero.jpg" 
+                      alt="Discord community screenshot - Jamie" 
+                      className="w-full h-full object-contain rounded-2xl border-4 border-[#191A1C] shadow-[0px_16px_72px_rgba(0,0,0,0.6)] bg-[#191A1C]"
+                    />
+                </div>
+
+                {/* 3. Right Image: Profit (tilted and tucked back) */}
+                <div className="absolute top-[10%] right-0 w-[40%] h-auto z-0 [transform:rotateY(-15deg)_rotateZ(-5deg)_translateX(0px)_translateY(0px)_translateZ(-50px)]">
+                    <img 
+                      src="/heroprofit.jpg" 
+                      alt="Discord community screenshot - Profit" 
+                      className="w-full h-full object-contain rounded-2xl border-4 border-[#191A1C] shadow-[-24px_16px_56px_rgba(0,0,0,0.5)] bg-[#191A1C]"
+                    />
+                </div>
+              </div>
 
               <h1 className="mt-24 text-white text-4xl lg:text-6xl font-medium tracking-tight lg:tracking-none font-['Inter_Tight']">
                 Join our free discord.
