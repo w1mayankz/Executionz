@@ -318,7 +318,7 @@ export default function App() {
                       src="/aidanhero.jpg" 
                       alt="testimonial"
                       onClick={() => setSelectedImage("/aidanhero.jpg")}
-                      className="w-full h-full object-contain rounded-xl shadow-[0px_16px_50px_rgba(0,0,0,0.4)] cursor-pointer hover:opacity-90 transition-opacity"
+                      className="w-full h-full object-contain rounded-xl shadow-[0px_16px_50px_rgba(0,0,0,0.4)] cursor-pointer transition-opacity"
                     />
                 </div>
 
@@ -328,7 +328,7 @@ export default function App() {
                       src="/jamieheroimg.jpg" 
                       alt="testimonial"
                       onClick={() => setSelectedImage("/jamieheroimg.jpg")}
-                      className="w-full h-full object-contain rounded-xl shadow-[0px_20px_72px_rgba(0,0,0,0.6)] cursor-pointer hover:opacity-90 transition-opacity"
+                      className="w-full h-full object-contain rounded-xl shadow-[0px_20px_72px_rgba(0,0,0,0.6)] cursor-pointer transition-opacity"
                     />
                 </div>
 
@@ -338,7 +338,7 @@ export default function App() {
                       src="/heroprofit.jpg" 
                       alt="testimonial"
                       onClick={() => setSelectedImage("/heroprofit.jpg")}
-                      className="w-full h-full object-contain rounded-xl shadow-[0px_16px_50px_rgba(0,0,0,0.4)] cursor-pointer hover:opacity-90 transition-opacity"
+                      className="w-full h-full object-contain rounded-xl shadow-[0px_16px_50px_rgba(0,0,0,0.4)] cursor-pointer transition-opacity"
                     />
                 </div>
               </div>
