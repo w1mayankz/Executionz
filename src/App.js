@@ -286,7 +286,7 @@ export default function App() {
               </h1>
 
               <p className="mt-6 text-white/60 leading-normal text-base lg:text-lg font-normal font-['Inter_Tight']">
-                Trade with greater confidence, consistency and conviction.
+                We teach a structured approach to understanding price movement so you can trade with greater confidence, consistency and conviction.
               </p>
 
               <div className="mt-6 flex gap-1">
@@ -309,7 +309,7 @@ export default function App() {
               </div>
 
                {/* 3-IMAGE HERO LAYOUT COMPONENT */}
-              <div className="relative mt-24 w-full aspect-video perspective-[1000px] overflow-visible">
+              <div className="relative mt-12 w-full aspect-video perspective-[1000px] overflow-visible">
                 
                 {/* 1. Left Image: Aidan (tucked back and tilted) */}
                 <div className="absolute top-[20%] -left-4 w-[40%] h-auto z-10 [transform:rotateY(-15deg)_translateZ(-60px)_rotateZ(-2deg)]">
