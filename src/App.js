@@ -286,7 +286,7 @@ export default function App() {
               </h1>
 
               <p className="mt-6 text-white/60 leading-normal text-base lg:text-lg font-normal font-['Inter_Tight']">
-                We teach a structured approach to understanding price movement so you can trade with greater confidence, consistency and conviction.
+                Join a community of traders who understand that the best education comes from learning a real, tested system and applying it yourself.
               </p>
 
               <div className="mt-6 flex gap-1">
@@ -426,7 +426,7 @@ export default function App() {
                 <BookmarkIcon className="w-4 h-4 text-[#0E78E8] mb-5" />
                 <p className="text-black/70 text-[12px] lg:text-lg leading-normal font-normal text-left font-['Inter_Tight']">
                   Learn foundational basics to understand the markets and start
-                  trading with clarity.
+                  trading with absolute clarity.
                 </p>
               </div>
 
@@ -600,7 +600,7 @@ export default function App() {
                       <div className="flex items-start gap-2">
                         <CheckCircleIcon className="w-5 h-5 text-[#0E78E8] shrink-0 mt-0.5" />
                         <span className="text-white/80 text-[14px] font-normal font-['Inter_Tight']">
-                          The Strategy I personally use
+                          The strategy I personally use
                         </span>
                       </div>
 
@@ -621,7 +621,7 @@ export default function App() {
                       <div className="flex items-start gap-2">
                         <CheckCircleIcon className="w-5 h-5 text-[#0E78E8] shrink-0 mt-0.5" />
                         <span className="text-white/80 text-[14px] font-normal font-['Inter_Tight']">
-                          Detailed written study guide covering my complete trading style
+                          Detailed written study guides covering my complete trading style
                         </span>
                       </div>
 
@@ -739,8 +739,8 @@ export default function App() {
                 />
 
                 <FAQItem
-                  question="How frequent is the guidance within the community?"
-                  answer="We host multiple livestreams every week and mentors are active daily inside the Discord to answer specific chart questions."
+                  question="What am I signing up for?"
+                  answer="Premium access to my strategy and indicators. Trade with my community. This is NOT a mentorship or signal group."
                 />
 
                 <FAQItem
@@ -754,7 +754,7 @@ export default function App() {
                 />
 
                 <FAQItem
-                  question="I still have some questions"
+                  question="But I still have some questions.."
                   answer={
                     <>
                       You can ask your remaining questions directly to Jenz in
@@ -806,7 +806,7 @@ export default function App() {
 
                 <div className="w-full py-8 mt-6 flex flex-col items-center justify-center border border-black/10 rounded-2xl bg-white">
                   <h1 className="text-black text-3xl md:text-4xl font-semibold font-['Inter_Tight'] tracking-tight leading-none">
-                    35% OFF
+                    40% OFF
                   </h1>
 
                   <span className="text-black/60 text-[12px] font-normal font-['Inter_Tight'] mt-2">
@@ -1140,7 +1140,7 @@ export default function App() {
           <span>
             Designed by{" "}
             <a href="#" className="text-[#0E78E8] cursor-pointer">
-              Mayank
+            Mango 🥭
             </a>
           </span>
         </div>
