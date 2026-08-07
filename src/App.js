@@ -123,6 +123,7 @@ const FAQItem = ({ question, answer }) => {
 };
 
 export default function App() {
+  const [selectedImage, setSelectedImage] = useState(null);
   const [isCopied, setIsCopied] = useState(false);
   const [isCopied2, setIsCopied2] = useState(false);
 
@@ -315,8 +316,9 @@ export default function App() {
                 <div className="absolute top-[20%] -left-4 w-[40%] h-auto z-10 [transform:rotateY(-15deg)_translateZ(-60px)_rotateZ(-2deg)]">
                     <img 
                       src="/aidanhero.jpg" 
-                      alt="testimonial" 
-                      className="w-full h-full object-contain rounded-xl shadow-[0px_16px_50px_rgba(0,0,0,0.4)]"
+                      alt="testimonial"
+                      onClick={() => setSelectedImage("/aidanhero.jpg")}
+                      className="w-full h-full object-contain rounded-xl shadow-[0px_16px_50px_rgba(0,0,0,0.4)] cursor-pointer hover:opacity-90 transition-opacity"
                     />
                 </div>
 
@@ -324,8 +326,9 @@ export default function App() {
                 <div className="absolute top-0 left-1/2 w-[50%] h-auto -translate-x-1/2 z-20">
                     <img 
                       src="/jamieheroimg.jpg" 
-                      alt="testimonial" 
-                      className="w-full h-full object-contain rounded-xl shadow-[0px_20px_72px_rgba(0,0,0,0.6)]"
+                      alt="testimonial"
+                      onClick={() => setSelectedImage("/jamieheroimg.jpg")}
+                      className="w-full h-full object-contain rounded-xl shadow-[0px_20px_72px_rgba(0,0,0,0.6)] cursor-pointer hover:opacity-90 transition-opacity"
                     />
                 </div>
 
@@ -333,8 +336,9 @@ export default function App() {
                 <div className="absolute top-[20%] -right-4 w-[40%] h-auto z-10 [transform:rotateY(15deg)_translateZ(-60px)_rotateZ(2deg)]">
                     <img 
                       src="/heroprofit.jpg" 
-                      alt="testimonial" 
-                      className="w-full h-full object-contain rounded-xl shadow-[0px_16px_50px_rgba(0,0,0,0.4)]"
+                      alt="testimonial"
+                      onClick={() => setSelectedImage("/heroprofit.jpg")}
+                      className="w-full h-full object-contain rounded-xl shadow-[0px_16px_50px_rgba(0,0,0,0.4)] cursor-pointer hover:opacity-90 transition-opacity"
                     />
                 </div>
               </div>
@@ -1145,6 +1149,28 @@ export default function App() {
           </span>
         </div>
       </section>
+      <AnimatePresence>
+        {selectedImage && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setSelectedImage(null)}
+            className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 p-4 cursor-pointer backdrop-blur-sm"
+          >
+            <motion.img
+              initial={{ scale: 0.8, opacity: 0, y: 20 }}
+              animate={{ scale: 1, opacity: 1, y: 0 }}
+              exit={{ scale: 0.8, opacity: 0, y: 20 }}
+              transition={{ type: "spring", damping: 25, stiffness: 300 }}
+              src={selectedImage}
+              alt="Enlarged view"
+              className="w-full max-w-5xl max-h-[90vh] object-contain rounded-2xl shadow-2xl"
+              onClick={(e) => e.stopPropagation()} 
+            />
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }
