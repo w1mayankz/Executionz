@@ -323,7 +323,7 @@ export default function App() {
                 {/* 2. Middle Image: Jamie (Foreground, vertical) */}
                 <div className="absolute top-0 left-1/2 w-[50%] h-auto -translate-x-1/2 z-20">
                     <img 
-                      src="/jamiehero.jpg" 
+                      src="/jamieheroimg.jpg" 
                       alt="testimonial" 
                       className="w-full h-full object-contain rounded-xl shadow-[0px_20px_72px_rgba(0,0,0,0.6)]"
                     />
