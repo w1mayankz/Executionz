@@ -312,28 +312,28 @@ export default function App() {
               <div className="relative mt-12 w-full aspect-video perspective-[1000px] overflow-visible">
                 
                 {/* 1. Left Image: Aidan (tucked back and tilted) */}
-                <div className="absolute top-[20%] -left-4 w-[40%] h-auto z-10 [transform:rotateY(-15deg)_translateZ(-60px)_rotateZ(-3deg)]">
+                <div className="absolute top-[20%] -left-4 w-[40%] h-auto z-10 [transform:rotateY(-15deg)_translateZ(-60px)_rotateZ(-2deg)]">
                     <img 
                       src="/aidanhero.jpg" 
-                      alt="Discord community Aidan" 
+                      alt="testimonial" 
                       className="w-full h-full object-contain rounded-xl shadow-[0px_16px_50px_rgba(0,0,0,0.4)]"
                     />
                 </div>
 
                 {/* 2. Middle Image: Jamie (Foreground, vertical) */}
-                <div className="absolute top-0 left-1/2 w-[60%] h-auto -translate-x-1/2 z-20">
+                <div className="absolute top-0 left-1/2 w-[50%] h-auto -translate-x-1/2 z-20">
                     <img 
                       src="/jamiehero.jpg" 
-                      alt="Discord community Jamie" 
+                      alt="testimonial" 
                       className="w-full h-full object-contain rounded-xl shadow-[0px_20px_72px_rgba(0,0,0,0.6)]"
                     />
                 </div>
 
                 {/* 3. Right Image: Profit (tucked back and tilted) */}
-                <div className="absolute top-[20%] -right-4 w-[40%] h-auto z-10 [transform:rotateY(15deg)_translateZ(-60px)_rotateZ(3deg)]">
+                <div className="absolute top-[20%] -right-4 w-[40%] h-auto z-10 [transform:rotateY(15deg)_translateZ(-60px)_rotateZ(2deg)]">
                     <img 
                       src="/heroprofit.jpg" 
-                      alt="Discord community Profit" 
+                      alt="testimonial" 
                       className="w-full h-full object-contain rounded-xl shadow-[0px_16px_50px_rgba(0,0,0,0.4)]"
                     />
                 </div>
