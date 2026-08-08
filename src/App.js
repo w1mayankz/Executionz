@@ -430,7 +430,7 @@ export default function App() {
                 <BookmarkIcon className="w-4 h-4 text-[#0E78E8] mb-5" />
                 <p className="text-black/70 text-[12px] lg:text-lg leading-normal font-normal text-left font-['Inter_Tight']">
                   Learn foundational basics to understand the markets and start
-                  trading with absolute clarity.
+                  trading with clarity.
                 </p>
               </div>
 
@@ -525,8 +525,19 @@ export default function App() {
                 ))}
               </div>
             </div>
+          </section>
 
-            <div className="mt-24 w-full max-w-3xl mx-auto flex flex-col gap-2 md:px-0">
+          <section
+            className="bg-[#101115] w-full py-24 font-['Inter_Tight']"
+          >
+            <div className="max-w-5xl mx-auto px-4">
+              <h1 className="text-white text-4xl font-medium tracking-tight font-['Inter_Tight']">
+                This is what winning looks like.
+              </h1>
+              <p className="mt-6 text-white/60 text-base font-normal font-['Inter_Tight'] leading-normal">
+                Student wins, from our students.
+              </p>
+              <div className="mt-12 w-full max-w-3xl mx-auto flex flex-col gap-2 md:px-0">
                 <img 
                   src="/dg.jpg"
                   alt="testimonial image"
@@ -563,14 +574,7 @@ export default function App() {
                   className="w-full h-auto rounded-xl object-cover"
                 />
             </div>
-          </section>
-
-          <section
-            id="pricing"
-            className="bg-[#101115] w-full py-24 font-['Inter_Tight']"
-          >
-            <div className="max-w-5xl mx-auto px-4">
-              <h1 className="text-white text-4xl font-medium tracking-tight font-['Inter_Tight']">
+              <h1 id="pricing" className="mt-24 text-white text-4xl font-medium tracking-tight font-['Inter_Tight']">
                 The best money you will spend.
               </h1>
 
