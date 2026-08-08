@@ -1041,19 +1041,26 @@ export default function App() {
                 By creating an account, subscribing to a membership, joining our Discord server, or otherwise accessing any part of the Services, you confirm that you have read, understood, and agree to be bound by these Terms. If you do not agree with any part of these Terms, you must not use the Services.
             </p>
             <h1 className="mt-2 text-black text-2xl font-medium font-['Inter_Tight'] tracking-tight">
-                Eligibility
+                2. Eligibility
             </h1>
             <p className="mt-2 text-black/60 text-base font-normal font-['Inter_Tight'] leading normal">
                 You must be at least 18 years old and legally capable of entering into a binding contract in your jurisdiction to use the Services. The Services are not intended for or directed at minors. By using the Services, you represent and warrant that you meet these requirements and that your use of the Services does not violate any law or regulation applicable to you.
             </p>
             <h1 className="mt-2 text-black text-2xl font-medium font-['Inter_Tight'] tracking-tight">
-                Our services
+                3. Our services
             </h1>
             <p className="mt-2 text-black/60 text-base font-normal font-['Inter_Tight'] leading normal">
                 Executionz Trading is an educational platform and community focused on price action, market structure, and trading strategy. The Services may include:
             </p>
             <p className="mt-1 text-black/60 text-base font-normal font-['Inter_Tight'] leading normal">
-                Live trading streams, market commentary, and New York session sessions
+                Market commentary, analysis posts and trade ideas
+                <br />
+                   Pre-recorded lectures, courses, and learning materials
+                <br />
+                   Trading models, frameworks, and analytical tools
+            </p>
+            <p className="mt-1 text-black/60 text-base font-normal font-['Inter_Tight'] leading normal">
+                All content is provided for educational and informational purposes only. The availability, features, and scope of the Services may change at any time without notice.
             </p>
                 
             <div className="mt-6">
