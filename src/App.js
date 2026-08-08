@@ -942,7 +942,7 @@ export default function App() {
         >
           <div className="max-w-3xl flex flex-col gap-6">
             <h1 className="text-black text-4xl font-medium font-['Inter_Tight'] tracking-tight">
-              Risk Disclosure Statement for Futures, Forex and Options.
+              Risk disclosure statement for futures, forex and options.
             </h1>
             <p className="text-black/60 text-base font-normal font-['Inter_Tight'] leading-normal mt-6">
               This brief statement does not disclose all of the risks and other
@@ -1028,13 +1028,26 @@ export default function App() {
               all associated trading fees.
             </p>
 
+            <h1 className="mt-24 text-black text-4xl font-medium font-['Inter_Tight'] tracking-tight">
+                Terms of services.
+            </h1>
+            <p className="mt-6 text-black/60 text-base font-normal font-['Inter_Tight'] leading-normal">
+                These Terms of Service ("Terms") govern your access to and use of Executionz Trading's website, Discord community, courses, and related services (collectively, the "Services"). By accessing or using the Services, you agree to be bound by these Terms. Please read them carefully alongside our Privacy Policy and Risk Disclosure.
+            </p>
+            <h1 className="mt-6 text-black text-2xl font-medium font-['Inter_Tight'] tracking-tight">
+                1. Acceptance of terms
+            </h1>
+            <p className="mt-2 text-black/60 text-base font-normal font-['Inter_Tight'] leading-normal">
+                By creating an account, subscribing to a membership, joining our Discord server, or otherwise accessing any part of the Services, you confirm that you have read, understood, and agree to be bound by these Terms. If you do not agree with any part of these Terms, you must not use the Services.
+            </p>
+                
             <div className="mt-6">
                 <a
                   href="#home"
                   onClick={() => navigate("home", "/")}
                   className="px-3.5 py-2 rounded-full bg-[#0E78E8] text-white text-[12px] lg:px-5.25 lg:py-3 lg:text-sm font-normal font-['Inter']"
                 >
-                  Back to homepage
+                  Homepage
                 </a>
             </div>
           </div>
