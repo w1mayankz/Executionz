@@ -537,43 +537,50 @@ export default function App() {
               <p className="mt-6 text-white/60 text-base font-normal font-['Inter_Tight'] leading-normal">
                 Student wins, from our students.
               </p>
-              <div className="mt-12 w-full max-w-3xl mx-auto flex flex-col gap-2 md:px-0">
-                <img 
-                  src="/dg.jpg"
-                  alt="testimonial image"
-                  className="w-full h-auto rounded-xl object-cover"
-                />
-                <img
-                  src="/steezypayout.jpg"
-                  alt="testimonial image"
-                  className="w-full h-auto rounded-xl object-cover"
-                />
-                <img
-                  src="/icywin.jpg"
-                  alt="testimonial image"
-                  className="w-full h-auto rounded-xl object-cover"
-                />
-                <img
-                  src="/steezypnl.jpg"
-                  alt="testimonial image"
-                  className="w-full h-auto rounded-xl object-cover"
-                />
-                <img
-                  src="/icywin2.jpg"
-                  alt="testimonial image"
-                  className="w-full h-auto rounded-xl object-cover"
-                />
-                <img
-                  src="/jamie.jpg"
-                  alt="testimonial image"
-                  className="w-full h-auto rounded-xl object-cover"
-                />
-                <img
-                  src="/benrhaywin2.jpg"
-                  alt="testimonial image"
-                  className="w-full h-auto rounded-xl object-cover"
-                />
-            </div>
+              <div className="mt-12 w-full max-w-3xl mx-auto relative md:px-0">
+                {/* 1. Image Container */}
+                <div className="flex flex-col gap-2 w-full">
+                  <img 
+                    src="/dg.jpg"
+                    alt="testimonial image"
+                    className="w-full h-auto rounded-xl object-cover"
+                  />
+                  <img
+                    src="/steezypayout.jpg"
+                    alt="testimonial image"
+                    className="w-full h-auto rounded-xl object-cover"
+                  />
+                  <img
+                    src="/icywin.jpg"
+                    alt="testimonial image"
+                    className="w-full h-auto rounded-xl object-cover"
+                  />
+                  <img
+                    src="/steezypnl.jpg"
+                    alt="testimonial image"
+                    className="w-full h-auto rounded-xl object-cover"
+                  />
+                  <img
+                    src="/icywin2.jpg"
+                    alt="testimonial image"
+                    className="w-full h-auto rounded-xl object-cover"
+                  />
+                  <img
+                    src="/jamie.jpg"
+                    alt="testimonial image"
+                    className="w-full h-auto rounded-xl object-cover"
+                  />
+                  <img
+                    src="/benrhaywin2.jpg"
+                    alt="testimonial image"
+                    className="w-full h-auto rounded-xl object-cover"
+                  />
+                </div>
+
+                {/* 2. Fade Overlay */}
+                <div className="absolute bottom-0 left-0 w-full h-[45%] bg-gradient-to-t from-[#101115] via-[#101115]/80 to-transparent pointer-events-none"></div>
+              </div>
+
               <h1 id="pricing" className="mt-24 text-white text-4xl font-medium tracking-tight font-['Inter_Tight']">
                 The best money you will spend.
               </h1>
