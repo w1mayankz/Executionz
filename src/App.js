@@ -1027,6 +1027,16 @@ export default function App() {
               profitability, factoring in the upfront premium paid as well as
               all associated trading fees.
             </p>
+
+            <div className="mt-6">
+                <a
+                  href="#home"
+                  onClick={() => navigate("home", "/")}
+                  className="px-3.5 py-2 rounded-full bg-[#0E78E8] text-white text-[12px] lg:px-5.25 lg:py-3 lg:text-sm font-normal font-['Inter']"
+                >
+                  Back to homepage
+                </a>
+            </div>
           </div>
         </div>
       )}
@@ -1132,7 +1142,7 @@ export default function App() {
               onClick={() => navigate("disclaimer", "/disclaimer")}
               className="mt text-[#0E78E8] text-base font-normal font-['Inter_Tight'] underline underline-offset-2 decoration-[#0E78E8]"
             >
-              View full disclaimer
+              View full disclaimer and terms of services
             </p>
           </div>
         </div>
