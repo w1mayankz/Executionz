@@ -463,7 +463,7 @@ export default function App() {
               id="testimonials"
               className="mt-24 scroll-mt-32 text-black text-4xl lg:text-6xl font-medium font-['Inter_Tight'] tracking-tight"
             >
-              This is what winning looks like.
+              See what they say.
             </h1>
             <p className="mt-6 text-black/60 leading-normal font-normal font-['Inter_Tight'] text-base lg:text-lg">
               Real feedback from traders who actually put in the work.
@@ -566,12 +566,12 @@ export default function App() {
                     className="w-full h-auto rounded-xl object-cover"
                   />
                   <img
-                    src="/jamie.jpg"
+                    src="/benrhaywin2.jpg"
                     alt="testimonial image"
                     className="w-full h-auto rounded-xl object-cover"
                   />
                   <img
-                    src="/benrhaywin2.jpg"
+                    src="/jamie.jpg"
                     alt="testimonial image"
                     className="w-full h-auto rounded-xl object-cover"
                   />
