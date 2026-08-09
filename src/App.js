@@ -713,7 +713,7 @@ export default function App() {
               </div>
 
               <div className="mt-12 px-0 md:px-10 text-left">
-                <div className="border border-black/10 rounded-2xl pr-6 pl-6 pb-6 pt-8 md:p-8 text-left bg-white shadow-sm">
+                <div className="border-4 border-black/10 rounded-2xl pr-6 pl-6 pb-6 pt-8 md:p-8 text-left bg-white">
                   <p className="text-black text-xl font-medium font-['Inter_Tight']">
                     I'm Jenz,
                   </p>
@@ -740,7 +740,7 @@ export default function App() {
                 id="faqs"
                 className="text-black mt-24 scroll-mt-32 text-4xl font-medium font-['Inter_Tight'] tracking-tight"
               >
-                Questions? Anyone?
+                Frequently asked questions.
               </h1>
 
               <p className="text-black/60 mt-6 text-base font-normal font-['Inter_Tight'] leading-normal">
