@@ -622,14 +622,14 @@ export default function App() {
                       <div className="flex items-start gap-2">
                         <CheckCircleIcon className="w-5 h-5 text-[#0E78E8] shrink-0 mt-0.5" />
                         <span className="text-white/80 text-[14px] font-normal font-['Inter_Tight']">
-                          10+ hours of recorded study content on my trading model
+                          Recorded lectures and total 10+ hours of study content on my model
                         </span>
                       </div>
 
                       <div className="flex items-start gap-2">
                         <CheckCircleIcon className="w-5 h-5 text-[#0E78E8] shrink-0 mt-0.5" />
                         <span className="text-white/80 text-[14px] font-normal font-['Inter_Tight']">
-                          Access to all the custom indicators I use every single day
+                          Access to all the custom indicators and tools I use every single day
                         </span>
                       </div>
 
