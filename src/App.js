@@ -556,6 +556,11 @@ export default function App() {
                     className="w-full h-auto rounded-xl object-cover"
                   />
                   <img
+                    src="/luisfunded.jpg"
+                    alt="testimonial image"
+                    className="w-full h-auto rounded-xl object-cover"
+                  />
+                  <img
                     src="/steezypnl.jpg"
                     alt="testimonial image"
                     className="w-full h-auto rounded-xl object-cover"
