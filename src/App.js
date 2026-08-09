@@ -596,7 +596,7 @@ export default function App() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
                 <div className="flex flex-col gap-2">
-                  <div className="p-4 md:p-8 border border-white/10 rounded-2xl bg-[#101115]">
+                  <div className="p-4 md:p-8 border-4 border-white/10 rounded-2xl bg-[#101115]">
                     <h1 className="text-xl font-medium font-['Inter_Tight'] mb-6 text-white">
                       Executionz Trading
                     </h1>
@@ -713,7 +713,7 @@ export default function App() {
               </div>
 
               <div className="mt-12 px-0 md:px-10 text-left">
-                <div className="border-4 border-black/10 rounded-2xl pr-6 pl-6 pb-6 pt-8 md:p-8 text-left bg-white">
+                <div className="border border-black/10 rounded-2xl pr-6 pl-6 pb-6 pt-8 md:p-8 text-left bg-white">
                   <p className="text-black text-xl font-medium font-['Inter_Tight']">
                     I'm Jenz,
                   </p>
