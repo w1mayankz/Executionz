@@ -571,7 +571,7 @@ export default function App() {
                     className="w-full h-auto rounded-xl object-cover"
                   />
                   <img
-                    src="/jamie.jpg"
+                    src="/jamie3.jpg"
                     alt="testimonial image"
                     className="w-full h-auto rounded-xl object-cover"
                   />
